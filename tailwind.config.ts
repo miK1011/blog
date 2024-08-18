@@ -8,6 +8,6 @@ const config: Config = {
   fontFamily: {
     sans: ['var(--font-noto-sans-jp)'],
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
 export default config
